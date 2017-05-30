@@ -16,12 +16,12 @@ I have already done some progress in my task:
 
 First of all, I have had to understand how RoboComp works and the navigation architecture used in RoboComp as well. Once I have become familiar to them, I started coding.
 
-##### Include humans in the simulation
+##### Including humans in the simulation
 As I'm going to work with simulations instead with a real robot, in first place I have created a set of components in RoboComp named _"FakeHuman0x"_ in order to include humans in the simulation tool provided by RoboComp. Each component has an user's interface that I have created to move the humans. I have also downloaded different meshes for each person in the simulation.
 
 On the left you can see an example of simulation of a square enviroment with two humans. On the right there is an image of the user's interface created to move the humans in the simulation. 
 
-![Example simulation](pictures/simulacion_ejemplo.png) ![User's interface](pictures/interfaz.png) 
+![Example simulation](pictures/simulacion_ejemplo.png)                ![User's interface](pictures/interfaz.png) 
 
 
 ##### Personal space modelling
