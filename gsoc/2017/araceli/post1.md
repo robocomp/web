@@ -31,7 +31,7 @@ In the next picture you can see the Gaussian curves, result of applying the pers
 
 ![Gaussian curves obtained](pictures/gauss_ejemplo.png) 
 
-#####Individuals clustering
+##### Individuals clustering
 Finally, I have used a global density function to separate individuals into groups accordingly to their distances. This clustering algorithm takes as input the previously obtained Gaussian curves and the result is a set of polylines (ordered lists of points) which define the contours of forbidden regions for navigation where people are present.
 
 In the next picture you can see the result of applying the density function to the previous Gaussian curves. You can also see the polyline obtained with the clustering algorithm:
@@ -40,7 +40,7 @@ In the next picture you can see the result of applying the density function to t
 
 
 
-###What I am planning to do next
+### What I am planning to do next
 
 There is still a lot of work to be done to achieve socially acceptable navigation. Here I explain some of the tasks I have to do or I would like to do next:
 
