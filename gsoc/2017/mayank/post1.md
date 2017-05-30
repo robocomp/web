@@ -1,4 +1,4 @@
-# Introduction
+# DATE
 
 30th May, 2017 
 
@@ -10,7 +10,7 @@ My task for GSoC 2017 is to improve upon the latest rcmanager tool and fill in t
 
 The following milestones are what I plan to achieve while working on my project:
 
-1) First evaluation - 
+## First evaluation - 
 
 a) Understanding the current codebase - The new rcmanager has an intricate structure of encapsulated objects and inherited classes, and require a good understanding, to enable pushing pieces of code in between.
 
@@ -18,13 +18,13 @@ b) Adding support for graph panning - The current rcmanager does not support gra
 
 c) Testing compatibility - Rcmanager already has many hold and drag functions, and should not be affected by the panning function. This step will ensure that the other functionalities remain unaffected.
 
-2) Second evaluation - 
+## Second evaluation - 
 
 a) Switching all nodes back to the old representation - The current representation for each node is very bulky and requires a lot of space, whereas not all nodes are not in use at the same time, and need not show all details. The old rcmanager provides for a simple, smaller representation, which will enable viewing large graphs in a small window area.
 
 b) Adding support for node expansion when hovering / zooming - The nodes should expand into the detailed views when necessary. Whether this is to be done while hovering or zooming in depends upon the user friendliness of each of the options.
 
-3) Third evaluation -
+## Third evaluation -
 
 a) Adding support for checking component validity - User inputs may quite often be erroneous and should be automatically checked and reported. Some checks will be added in this step to ensure that the components are defined correctly.
 
