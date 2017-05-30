@@ -57,4 +57,4 @@ There is still a lot of work to be done to achieve socially acceptable navigatio
 
 * * *
 Araceli Vega Magro
-n the next
+
