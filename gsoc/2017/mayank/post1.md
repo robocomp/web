@@ -1,6 +1,4 @@
-# Date
-
-30th May, 2017 
+# 30th May, 2017 
 
 # Introduction
 
