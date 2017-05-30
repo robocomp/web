@@ -1,8 +1,8 @@
-# DATE
+# Date
 
 30th May, 2017 
 
-# INTRODUCTION
+# Introduction
 
 Hello everyone ! My name is Mayank Kumar and I am a third year undergraduate student pursuing B.Tech in Computer Sciences from the Indian Institute of Technology (IIT) Ropar. I am a participant of the Google Summer of Code Programme, 2017, and will be working throughout the summer trying to make valuable contributions to RoboComp, the Open Source Robotics Framework. I enjoy playing cricket and spending time floating around in swimming pools, and writing code when I am dry. 
 
