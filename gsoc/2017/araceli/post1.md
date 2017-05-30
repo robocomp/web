@@ -21,7 +21,7 @@ As I'm going to work with simulations instead with a real robot, in first place 
 
 On the left you can see an example of simulation of a square enviroment with two humans. On the right there is an image of the user's interface created to move the humans in the simulation. 
 
-![Example simulation](pictures/simulacion_ejemplo.png) &nbsp; ![User's interface](pictures/interfaz.png) 
+![Example simulation](pictures/simulacion_ejemplo.png) &nbsp; &nbsp; &nbsp; ![User's interface](pictures/interfaz.png) 
 
 
 ##### Personal space modelling
