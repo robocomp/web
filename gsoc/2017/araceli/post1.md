@@ -29,6 +29,7 @@ Afterwards, I have created a new component in RoboComp which models their person
 
 In the next picture you can see the Gaussian curves, result of applying the personal space algorithm created to the previous example of simulation.
 
+
 ![Gaussian curves obtained](pictures/gauss_ejemplo.png) 
 
 ##### Individuals clustering
