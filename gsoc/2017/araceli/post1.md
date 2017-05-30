@@ -21,7 +21,7 @@ As I'm going to work with simulations instead with a real robot, in first place 
 
 On the left you can see an example of simulation of a square enviroment with two humans. On the right there is an image of the user's interface created to move the humans in the simulation. 
 
- &nbsp; &nbsp; &nbsp; ![Example simulation](pictures/simulacion_ejemplo.png) &nbsp; &nbsp; &nbsp; ![User's interface](pictures/interfaz.png) 
+![Example simulation](pictures/simulacion_ejemplo.png) &nbsp; &nbsp; &nbsp; ![User's interface](pictures/interfaz.png) 
 
 
 ##### Personal space modelling
@@ -29,9 +29,9 @@ Afterwards, I have created a new component in RoboComp which models their person
 
 In the next picture you can see the Gaussian curves, result of applying the personal space algorithm created to the previous example of simulation.
 
-<p align="center">
+
 ![Gaussian curves obtained](pictures/gauss_ejemplo.png) 
-</p>
+
 ##### Individuals clustering
 Finally, I have used a global density function to separate individuals into groups accordingly to their distances. This clustering algorithm takes as input the previously obtained Gaussian curves and the result is a set of polylines (ordered lists of points) which define the contours of forbidden regions for navigation where people are present.
 
