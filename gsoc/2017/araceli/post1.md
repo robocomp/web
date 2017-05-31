@@ -4,10 +4,10 @@
 
 ## About me
 
-I'm Araceli Vega Magro, I'm 23 years old and I'm an undergraduated student from the University of Extremadura. I'm about to finish the Degree in Sound and Image in Telecommunications. 
+My name is Araceli Vega Magro, I am 23 years old and I am about to finish my Degree in Sound and Image in Telecommunications in the University of Extremadura.
 
 ## Social navigation
-During GSOC 2017 I'm going to work in social navigation for mobile robots. It's an interesting topic due to the  increasing use of this kind of robots in different parts of society. In a near future we  will probably see mobile robots navigating around us. Robots will need to differentiate humans from ordinary objects and be able to give them special treatment.
+During GSOC 2017 I'm going to work in social navigation for mobile robots. It's an interesting topic due to the increasing use of this kind of robots in different parts of society. In a near future we  will probably see mobile robots navigating around us. Robots will need to differentiate humans from ordinary objects and be able to give them special treatment.
 
 The main objetive of my work in GSOC is to provide robots with the capability to behave in a socially acceptable manner. Making robots avoid groups of people or respect their personal space are some of the tasks I pursue to achieve this goal.
 
@@ -15,10 +15,10 @@ The main objetive of my work in GSOC is to provide robots with the capability to
 ### What I have already done
 I have already done some progress in my task:
 
-First of all, I have had to understand how RoboComp works and the navigation architecture used in RoboComp as well. Once I have become familiar to them, I started coding.
+First of all, I had to understand how RoboComp works and its navigation architecture.. Once I have become familiar to them, I started coding.
 
 ##### Including humans in the simulation
-As I'm going to work with simulations instead with a real robot, in first place I have created a set of components in RoboComp named _"FakeHuman0x"_ in order to include humans in the simulation tool provided by RoboComp. Each component has an user's interface that I have created to move the humans. I have also downloaded different meshes for each person in the simulation.
+As I'm going to work with simulations instead with a real robot, in first place I have created a set of components in RoboComp named _"FakeHuman0x"_ which include in the simulation tool provided by RoboComp. Each component has an user's interface that I have created to move the humans. I have also downloaded different meshes for each person in the simulation.
 
 On the left you can see an example of simulation of a square enviroment with two humans. On the right there is an image of the user's interface created to move the humans in the simulation. 
 
@@ -47,7 +47,7 @@ There is still a lot of work to be done to achieve socially acceptable navigatio
 
 * Modify the navigation architecture in order to include the personal space and the clustering of people. This will allow the robot to navigate avoiding groups of people and respecting their personal space.
 
-* Unify all the _FakeHuman_ components into one, as well as improve the user interface to allow to move humans to a specific position.
+* Unify all the _FakeHuman_ components into one, as well as improve the user's interface to allow to move humans to a specific position.
 
 * Model the personal space of humans in a different way, for example using an ellipse, in order to compare differents types of modeling and the navigation results obtained with them.
 
