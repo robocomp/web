@@ -21,8 +21,9 @@ As I'm going to work with simulations instead with a real robot, in first place 
 
 On the left you can see an example of simulation of a square enviroment with two humans. On the right there is an image of the user's interface created to move the humans in the simulation. 
 
+<div style="text-align: center">
 ![Example simulation](pictures/simulacion_ejemplo.png) &nbsp; &nbsp; &nbsp; ![User's interface](pictures/interfaz.png) 
-
+</div>
 
 ##### Personal space modelling
 Afterwards, I have created a new component in RoboComp which models their personal space as an asymmetric Gaussian function. Why this kind of function? I have considered it's a good way to model the personal space because it takes into account that humans find more annoying robots navigating ahead them than behind or by the sides. 
