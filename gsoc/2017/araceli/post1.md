@@ -55,7 +55,7 @@ There is still a lot of work to be done to achieve socially acceptable navigatio
 
 * Include certain social rules in the path planning algorithms, such as navigate, whenever possible, to the right side of a person.
 
-* Vary the personal space of a human based on his previous experience with the robot. In this way, if the robot knows a person, he could get closer than if the person is unknown. 
+* Vary the personal space of a human based on his previous experience with the robot. In this way, if the robot knows a person, it can get closer than if the person is unknown. 
 
 * * *
 Araceli Vega Magro
