@@ -61,7 +61,7 @@ Mentors: Pedro Núñez Trujillo
 Idea: Social navigation with RoboComp
 Mentors: Pedro Núñez Trujillo
 
-1.  [First post here](/web/gsoc/2017/araceli/post1)
+1.  [Introduction to Social Navigation](/web/gsoc/2017/araceli/post1)
 
 
 
