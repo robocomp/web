@@ -36,10 +36,15 @@ After that, the process is pretty straightforward so we need only to execute the
 
 ### Faster R-CNN ResNet 50 V1 640x640
 
-![CenterNet](images/Faster_R-CNN.png)
+![](images/Faster_R-CNN.png)
 - Average prediction time: 53 ms
 - Memory: 235.5 MB
 
+### SSD MobileNet v2 320x320
+
+![](images/SSD_MobileNet.png)
+- Average prediction time: 19 ms
+- Memory: 58.3 MB
 
 # Problems
 
