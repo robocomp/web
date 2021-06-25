@@ -34,7 +34,7 @@ After that, the process is pretty straightforward so we need only to execute the
 
 # Evaluation data
 
-![](./images/CenterNet "CenterNet")
+![CenterNet](./images/CenterNet "CenterNet")
 
 # Problems
 
