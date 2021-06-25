@@ -64,13 +64,13 @@ After that, the process is pretty straightforward so we need only to execute the
 - Average prediction time: 39 ms
 - Memory: 66.9 MB
 
-
-
-
-
 # Problems
 
+The initials models to evaluate were Tiny-YOLO, SSD and R-CNN, but there were some problems. The idea was to search for repositories with these models in a compatible format with Keras or Tensorflow, but some of them were 3-4 years old so appeared some problems relate to installing the exact version of Keras, Tensorflow, Numpy, etc. As a consequence of this, only have been evaluated a version of R-CNN call Mask R-CNN. Luckily, one of my tutor suggested me to use the tensorflow object detection zoo and after some minor problems with getting the data in tfformat, I was capable of evaluate the models and as this was really quickly we decided to evaluate more models to compensate that we cannot evaluate the Tiny-YOLO model.
+
 # Conclusion
+
+The goal of this was to determinate the best model for the component and after we can say that the principal options for the component are **EfficientDet D0 512x512** and **SSD MobileNet v2 320x320** because are the only that can be converted to TFLite format. The EfficientDet have better results in average precision and average recall meanwhile SSD MobileNet is quickier than the EfficientDet(19 ms vs 36 ms). So we will need to evaluate the perfomance of this two models in the componenet in TFLite format. 
 
 
 __Alejandro Fernández Camello__
