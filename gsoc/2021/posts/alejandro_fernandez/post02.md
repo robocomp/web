@@ -46,6 +46,28 @@ After that, the process is pretty straightforward so we need only to execute the
 - Average prediction time: 19 ms
 - Memory: 58.3 MB
 
+### CenterNet HourGlass104 Keypoints v2 512x512
+
+![](images/CenterNet_HourGlass.png)
+- Average prediction time: 76 ms
+- Memory: 1.62 GB
+
+### CenterNet MobileNetV2 FPN 512x512
+
+![](images/CenterNet_MobileNet.png)
+- Average prediction time: 6 ms
+- Memory: 60.2 MB
+
+### EfficientDet D0 512x512
+
+![](images/EfficientDet.png)
+- Average prediction time: 39 ms
+- Memory: 66.9 MB
+
+
+
+
+
 # Problems
 
 # Conclusion
