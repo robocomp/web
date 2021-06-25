@@ -34,7 +34,7 @@ After that, the process is pretty straightforward so we need only to execute the
 
 # Evaluation data
 
-![CenterNet](images/CenterNet_HourGlass104_Keypoints_v2_512x512.png)
+![CenterNet](images/CenterNet_HourGlass.png)
 
 # Problems
 
