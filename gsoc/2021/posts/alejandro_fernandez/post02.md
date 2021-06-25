@@ -34,7 +34,7 @@ After that, the process is pretty straightforward so we need only to execute the
 
 # Evaluation data
 
-![CenterNet](images/CenterNets)
+![CenterNet](images/CenterNet)
 
 # Problems
 
