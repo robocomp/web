@@ -34,7 +34,7 @@ After that, the process is pretty straightforward so we need only to execute the
 
 # Evaluation data
 
-![](./images/CenterNet HourGlass104 Keypoints v2 512x512.png "CenterNet")
+![](images/CenterNet)
 
 # Problems
 
