@@ -70,7 +70,7 @@ The initials models to evaluate were Tiny-YOLO, SSD and R-CNN, but there were so
 
 # Conclusion
 
-The goal of this was to determinate the best model for the component and after we can say that the principal options for the component are **EfficientDet D0 512x512** and **SSD MobileNet v2 320x320** because are the only that can be converted to TFLite format. The EfficientDet have better results in average precision and average recall meanwhile SSD MobileNet is quickier than the EfficientDet(19 ms vs 36 ms). So we will need to evaluate the perfomance of this two models in the componenet in TFLite format. 
+The goal of this was to determinate the best model for the component and after we can say that the principal options for the component are **EfficientDet D0 512x512** and **SSD MobileNet v2 320x320** because are the only that can be converted to TFLite format. The EfficientDet have better results in average precision and average recall meanwhile SSD MobileNet is quickier than the EfficientDet(19 ms vs 36 ms). So we will need to evaluate the perfomance of this two models in the componenet in TFLite format to decide which of them is better. 
 
 
 __Alejandro Fernández Camello__
