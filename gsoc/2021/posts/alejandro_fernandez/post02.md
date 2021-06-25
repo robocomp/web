@@ -34,7 +34,7 @@ After that, the process is pretty straightforward so we need only to execute the
 
 # Evaluation data
 
-![CenterNet](images/CenterNet_HourGlass.png)
+![CenterNet](images/Faster_R-CNN.png "Faster R-CNN ResNet 50 V1 640x640")
 
 # Problems
 
