@@ -8,7 +8,7 @@ Idea: An object detection component for LearnBlock
 Mentors: Iván Barbecho, Francisco Andrés
 
 1. [First post](/web/gsoc/2021/posts/alejandro_fernandez/post01)
-2. [Second post](/web/gsoc/2021/posts/alejandro_fernandez/post02)
+2. [Second post](web/gsoc/2021/posts/alejandro_fernandez/post02)
 
 ## Garv Tambi
 
