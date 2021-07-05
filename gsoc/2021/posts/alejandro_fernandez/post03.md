@@ -28,9 +28,9 @@ After that, we can pass to the last part to create the tflite model with all nec
     from tflite_support.metadata_writers import writer_utils
 
     if __name__ == "__main__":
-        _TFLITE_MODEL_PATH = "/models/research/object_detection/models_tflite/ssd_mobilenet/model_ssd.tflite"
-        _TFLITE_LABEL_PATH = "/models/research/object_detection/data/mscoco_label_map.pbtxt"
-        _SAVED_MODEL_PATH = "/models/research/object_detection/models_tflite/ssd_mobilenet/saved_model"
+        _TFLITE_MODEL_PATH = "model_ssd.tflite"
+        _TFLITE_LABEL_PATH = "../../data/mscoco_label_map.pbtxt"
+        _SAVED_MODEL_PATH = "saved_model"
 
         converter = tf.lite.TFLiteConverter.from_saved_model(_SAVED_MODEL_PATH)
         converter.optimizations = [tf.lite.Optimize.DEFAULT]
@@ -43,6 +43,12 @@ After that, we can pass to the last part to create the tflite model with all nec
             writer_utils.load_file(_TFLITE_MODEL_PATH), input_norm_mean=[0],
             input_norm_std=[255], label_file_paths=[_TFLITE_LABEL_PATH])
         writer_utils.save_file(writer.populate(), _TFLITE_MODEL_PATH)
+ 
+The difference respect to the tutorial are that as that I use dynamic quantization I only need to pass to the optimizations the default optimization.
+ 
+# EfficientDet
+
+Firstly, I though about creating a script and following this [tutorial](https://www.tensorflow.org/lite/tutorials/model_maker_object_detection), but I wasn´t capable of configure Google Cloud so I finally decided using the [Google Colab](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb) tutorial provided by the same tutorial. I only needed to do a small change in the line with object_detector.create adding to the parameters **do_train=False** for skipping the train as the model is pretrained with the dataset that we are using.
 
 __Alejandro Fernández Camello__
 
