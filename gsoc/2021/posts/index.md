@@ -16,7 +16,7 @@ Idea: Computer vision for detecting elements of a vehicle’s environment with R
 
 Mentors: Araceli Vega, Sergio Barroso
 
-1. [First post](/web/gsoc/2021/posts/garv_tambi/post01)
+1. [First post](/web/gsoc/2021/posts/garv_tambi/Introduction)
 
 ## Pawan Wadhwani
 
@@ -64,8 +64,8 @@ Idea: Sign language recognition
 
 Mentors: Kanav Gupta, Aditya Aggarwal
 
-1. [First post](/web/gsoc/2021/posts/trung_ngo_tan/post01)
-
+1. [Introduction](/web/gsoc/2021/posts/trung_ngo_tan/post01)
+2. [Fast inference](/web/gsoc/2021/posts/trung_ngo_tan/post02)
 ## Yassmin Hesham
 
 Idea: Simultaneous path planning and following using Model Predictive Control (SPAF)  
