@@ -10,7 +10,7 @@ The goal is to convert the following models to the tflite format that is more su
 - **CenterNet MobileNetV2 FPN 512x512**
 - **EfficientDet D0 512x512**
 
-As is said in the previous post the only two models that can be converted are **SSD MobileNet**(using standard Tensorflow Lite) and **EfficientDet**(using Tensorflow Lite Model Maker), but in the zip file of CenterNet MobileNet appeared a tflite file of the model.
+As is said in the previous post the only two models that can be converted are **SSD MobileNet**(using standard Tensorflow Lite) and **EfficientDet**(using Tensorflow Lite Model Maker), but in the zip file of CenterNet MobileNet appeared a tflite file of the model so is added.
 
 ## SSD MobileNet
 
