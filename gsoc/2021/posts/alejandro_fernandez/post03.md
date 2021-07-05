@@ -21,7 +21,7 @@ Firstly, I needed to convert the model to an inference graph of tflite that can 
     python object_detection/export_tflite_graph_tf2.py --pipeline_config_path=object_detection/ssd_mobilenet/pipeline.config 
     --trained_checkpoint_dir=object_detection/ssd_mobilenet/checkpoint --output_directory=object_detection/models_tflite/ssd_mobilenet
 
-After that, we can pass to the last part to create the tflite model with all necessary metadata. For that, I wrote a tiny script of Python with the information provided by the tutorial.
+After that, we can pass to the last part to create the tflite model with all necessary metadata. For that, I wrote a tiny script of Python with the information provided by the tutorial, this script is located in the following directory research/object_detection/models_tflite/ssd_mobilenet.
 
     import tensorflow as tf
     from tflite_support.metadata_writers import object_detector
@@ -48,7 +48,7 @@ The difference respect to the tutorial are that as that I use dynamic quantizati
  
 # EfficientDet
 
-Firstly, I though about creating a script and following this [tutorial](https://www.tensorflow.org/lite/tutorials/model_maker_object_detection), but I wasn´t capable of configure Google Cloud so I finally decided using the [Google Colab](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb) tutorial provided by the same tutorial. I only needed to do a small change in the line with object_detector.create adding to the parameters **do_train=False** for skipping the train as the model is pretrained with the dataset that we are using.
+Firstly, I though about creating a script and following this [tutorial](https://www.tensorflow.org/lite/tutorials/model_maker_object_detection), but I wasn´t capable of configure Google Cloud so I finally decided using the [Google Colab notebook](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb) provided by the same tutorial. I only needed to do a small change in the line with object_detector.create adding to the parameters **do_train=False** for skipping the train as the model is pretrained with the dataset that we are using and if I train the model will modified for adapting to the training dataset.
 
 __Alejandro Fernández Camello__
 
