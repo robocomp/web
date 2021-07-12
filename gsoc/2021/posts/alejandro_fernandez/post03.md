@@ -48,7 +48,7 @@ The difference respect to the tutorial are that as that I use dynamic quantizati
  
 # EfficientDet
 
-Firstly, I though about creating a script and following this [tutorial](https://www.tensorflow.org/lite/tutorials/model_maker_object_detection), but I wasn´t capable of configure Google Cloud so I finally decided using the [Google Colab notebook](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb) provided by the same tutorial. I only needed to do a small change in the line with object_detector.create adding to the parameters **do_train=False** for skipping the train as the model is pretrained with the dataset that we are using and if I train the model will modified to adapt to the training dataset of the notebook.
+Firstly, I though about creating a script and following this [tutorial](https://www.tensorflow.org/lite/tutorials/model_maker_object_detection), but I wasn´t capable of configure Google Cloud so I finally decided using the [Google Colab notebook](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb) provided by the same tutorial. I only needed to do a small change in the line with object_detector.create adding to the parameters **do_train=False** for skipping the train as the model is pretrained with the dataset that we are using and if I train the model will be modified to adapt to the dataset of the notebook.
 
 __Alejandro Fernández Camello__
 
