@@ -4,7 +4,7 @@ _9 July, 2021_
 
 ## Introduction
 
-After selecting the possible models for the component we need to start building the component, but is necessary to setting an environment with RoboComp and LearnBlock and familiarize myself with them.
+After selecting the possible models for the component we need to start building the component, but is necessary to setting an environment with RoboComp and LearnBlock and familiarize myself with it.
 
 ## Environment setting
 
@@ -16,7 +16,7 @@ But the greatest problem was about dlib library that it wasn´t capable of insta
 
 ## Creating the structure of the project
 
-For creating the structure of the project, I foolowed the componenet **emotionrecognition2** as has points in common with this new componenet.
+For creating the structure of the project, I followed the component **emotionrecognition2** as has points in common with this new component.
 
 ```bash
 .
