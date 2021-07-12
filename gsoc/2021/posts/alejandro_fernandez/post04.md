@@ -4,7 +4,7 @@ _9 July, 2021_
 
 ## Introduction
 
-After selecting the possible models for the component we need to start building the component, but is necessary to setting an environment with RoboComp and LearnBlock and familiarize myself with it.
+After selecting the possible models for the component we need to start building the component, but is necessary setting an environment with RoboComp and LearnBlock and familiarizing myself with it.
 
 ## Environment setting
 
