@@ -11,7 +11,7 @@ in other words, the boxes, classes and scores predicted for the model are going 
 ## Script
 
 To do these tests I have made a Python script that you need to pass an image to get another image with the boxes drawed.
-For these to work you need tensorflow 2, cv2, numpy and from the object detection API of Tensorflow the utils. Also, if you want to change the model you must modified **MODEL_FILE** to the name of the models that you are going to use from the file where is the component.
+For these to work you need tensorflow 2, cv2, numpy and from the object detection API of Tensorflow the utils. Also, if you want to change the model you must modify **MODEL_FILE** to the name of the model that you are going to use.
 
     from sys import argv
 
