@@ -198,18 +198,18 @@ For these to work you need tensorflow 2, cv2, numpy and from the object detectio
 
 The results of this model are pretty decent respect to the requirements needed
 
-![](images/test_detect_ssd.png)
+![](images/test_detect_ssd.jpg)
 
 ### Efficient Det
 
 As in the last model the results are good
 
-![](images/test_detect_efficient.png)
+![](images/test_detect_efficient.jpg)
 
 ### CenterNet 
 
 In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce this minimum to 0.12 and the results not make sense.
 
-![](images/test_detect_centernet.png)
+![](images/test_detect_centernet.jpg)
 
 __Alejandro Fernández Camello__
