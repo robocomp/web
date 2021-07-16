@@ -18,7 +18,10 @@ Idea: Computer vision for detecting elements of a vehicle’s environment with R
 
 Mentors: Araceli Vega, Sergio Barroso
 
-1. [Introduction](/web/gsoc/2021/posts/garv_tambi/Introduction)
+1. [First post](/web/gsoc/2021/posts/garv_tambi/Introduction)
+2. [Second post](/web/gsoc/2021/posts/garv_tambi/post02)
+3. [Third post](/web/gsoc/2021/posts/garv_tambi/post03)
+
 
 ## Pawan Wadhwani
 
@@ -27,7 +30,7 @@ Idea: Deep Reinforcement Learning for precise robot grasping and object manipula
 Mentors: Franciso Andrés, Mohamed Shawky Sabae
 
 1. [First post](/web/gsoc/2021/posts/pawan_wadhwani/post01)
-
+2. [Second post](/web/gsoc/2021/posts/pawan_wadhwani/post02)
 ## Aditya Kasibhatla
 
 Idea: Graphical user interface for affective human-robot interaction  
@@ -43,6 +46,8 @@ Idea: Improvement of a Social Navigation component
 Mentors: Luis J. Manso, Pilar Bachiller
 
 1. [First post](/web/gsoc/2021/posts/aditya_kapoor/post01)
+2. [Second post](/web/gsoc/2021/posts/aditya_kapoor/post02-crowdnav)
+2. [Third post](/web/gsoc/2021/posts/aditya_kapoor/post03-baselines)
 
 ## Vaibhaw Khemka
 
@@ -51,6 +56,8 @@ Idea: Monocular depth estimation from RGB signals
 Mentors: Mohamed Shawky Sabae, Luis V. Calderita
 
 1. [First post](/web/gsoc/2021/posts/vaibhaw_khemka/post01)
+2. [Second post](/web/gsoc/2021/posts/vaibhaw_khemka/post02)
+3. [Third post](/web/gsoc/2021/posts/vaibhaw_khemka/post03)
 
 ## Fernando Martín
 
@@ -76,7 +83,8 @@ Idea: Simultaneous path planning and following using Model Predictive Control (S
 
 Mentors: Pablo Bustos, Juan Carlos García, Ramón Cintas
 
-1. [First post](/web/gsoc/2021/posts/yassmin_hesham/post01)
+1. [Introduction](/web/gsoc/2021/posts/yassmin_hesham/post01)
+2. [Model Predictive Control (MPC)](/web/gsoc/2021/posts/yassmin_hesham/post02)
 
 ## Amarthya Sasi Kiran
 
@@ -84,7 +92,8 @@ Idea: Software agent for traffic and pedestrian traffic monitoring in outdoor en
 
 Mentors: Sergio Barroso, Nivedita Rufus
 
-1. [First post](/web/gsoc/2021/posts/amarthya_sasi_kiran/post01)
+1. [Introduction](/web/gsoc/2021/posts/amarthya_sasi_kiran/post01)
+2. [Summary: First Phase](/web/gsoc/2021/posts/amarthya_sasi_kiran/post02:Summary_First_Phase)
 
 ## Kacper Kujawski
 
