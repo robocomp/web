@@ -208,8 +208,14 @@ As in the last model the results are good
 
 ### CenterNet 
 
-In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce this minimum to 0.12 and the results not make sense.
+In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce this minimum to 0.12 and the results do not make sense.
 
 ![](images/test_detect_centernet.jpg)
+
+I tried converting the model another time to check if the fault was about a bad conversion from the original model, but the results did not improve.
+
+### Conclusion
+
+After these evaluations we can conclude that SSD MobileNet and Efficient Det are the best options, meanwhile CenterNet does not work properly converted to tflite in this case. I think that the predictions of Efficient Det are a tiny better compared with SSD Mobile, so Efficient Det will be the model used in the component.
 
 __Alejandro Fernández Camello__
