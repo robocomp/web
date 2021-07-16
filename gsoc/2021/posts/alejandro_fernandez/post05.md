@@ -208,7 +208,7 @@ As in the last model the results are good
 
 ### CenterNet 
 
-In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce this minimum to 0.12 and the results do not make sense.
+In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce the minimum to 0.12 and the results do not make sense.
 
 ![](images/test_detect_centernet.jpg)
 
