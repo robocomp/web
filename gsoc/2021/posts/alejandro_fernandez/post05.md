@@ -11,6 +11,7 @@ in other words, the boxes, classes and scores predicted for the model are going 
 ## Script
 
 To do these tests I have made a Python script that you need to pass an image to get another image with the boxes drawed.
+For these to work you need tensorflow 2, cv2, numpy and from the object detection API of Tensorflow the utils. Also, if you want to change the model you must modified **MODEL_FILE** to the name of the models that you are going to use from the file where is the component.
 
     from sys import argv
 
@@ -189,6 +190,26 @@ To do these tests I have made a Python script that you need to pass an image to 
 
         else:
             print('You must specify the filename of the image '
-                  'that you want to use like this "python test_detection.py IMAGE_DIRECTORY')
+                  'that you want to use like this "python test_detection.py IMAGE_DIRECTORY'
+
+## Results
+
+### SSD MobileNet
+
+The results of this model are pretty decent respect to the requirements needed
+
+![](images/test_detect_ssd.png)
+
+### Efficient Det
+
+As in the last model the results are good
+
+![](images/test_detect_efficient.png)
+
+### CenterNet 
+
+In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce this minimum to 0.12 and the results not make sense.
+
+![](images/test_detect_centernet.png)
 
 __Alejandro Fernández Camello__
