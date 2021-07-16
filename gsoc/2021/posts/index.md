@@ -7,10 +7,11 @@ Idea: An object detection component for LearnBlock
 
 Mentors: Iván Barbecho, Francisco Andrés
 
-1. [First post](/web/gsoc/2021/posts/alejandro_fernandez/post01)
-2. [Second post](/web/gsoc/2021/posts/alejandro_fernandez/post02)
-3. [Third post](/web/gsoc/2021/posts/alejandro_fernandez/post03)
-4. [Fourth post](/web/gsoc/2021/posts/alejandro_fernandez/post04)
+1. [Introduction](/web/gsoc/2021/posts/alejandro_fernandez/post01)
+2. [Evaluation of the models](/web/gsoc/2021/posts/alejandro_fernandez/post02)
+3. [Converting the models to Tensorflow Lite](/web/gsoc/2021/posts/alejandro_fernandez/post03)
+4. [Setting the environment for LearnBlock and first steps to build the component](/web/gsoc/2021/posts/alejandro_fernandez/post04)
+5. [Testing the Tensorflow Lite models](/web/gsoc/2021/posts/alejandro_fernandez/post05)
 
 ## Garv Tambi
 
