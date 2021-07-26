@@ -286,31 +286,9 @@ After executing the code, it will launch the browser with a windows where you ca
 
 ![](images/gradio.png)
 
-
-
-### SSD MobileNet
-
-The results of this model are pretty decent respect to the requirements needed
-
-![](images/test_detect_ssd.jpg)
-
-### Efficient Det
-
-As in the last model the results are good
-
-![](images/test_detect_efficient.jpg)
-
-### CenterNet 
-
-In this case, the results do not reach the expectatives. For a minimum score of 0.3 all predictions are below this score so I reduce the minimum to 0.12 and the results do not make sense.
-
-![](images/test_detect_centernet.jpg)
-
-I tried converting the model another time to check if the fault was about a bad conversion from the original model, but the results did not improve.
-
 ### Conclusion
 
-After these evaluations we can conclude that SSD MobileNet and Efficient Det are the best options, meanwhile CenterNet does not work properly converted to tflite in this case. I think that the predictions of Efficient Det are a tiny better compared with SSD Mobile, so Efficient Det will be the model used in the component.
+RoboComp allow us to simplify a lot the creation integration of new components in LearnBlock, so the only needed to finish will be testing the component and make the necessary improvements according with this. 
 
 __Alejandro Fernández Camello__
 
