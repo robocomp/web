@@ -135,7 +135,7 @@ After these, the next steps will be testing the component in the RCIS simulator 
 
 ## Improving the testing of the model
 
-I thought that the interface to test images with the models was not very good so I decided to do a better one using the library [Gradio](https://github.com/gradio-app/gradio) that is only used for this test so it will not be regsitered in the requirements.txt of LearnBlock.
+I thought that the interface to test images with the models was not very good so I decided to do a better one using the library [Gradio](https://github.com/gradio-app/gradio) that is only used for this test so it will not be registered in the requirements.txt of LearnBlock.
 
         import numpy as np
         import tensorflow as tf
@@ -288,7 +288,7 @@ After executing the code, it will launch the browser with a windows where you ca
 
 ### Conclusion
 
-RoboComp allow us to simplify a lot the creation integration of new components in LearnBlock, so the only needed to finish will be testing the component and make the necessary improvements according with this. 
+RoboComp allow us to simplify a lot the integration of new components in LearnBlock, so the only needed to finish the project will be testing the component, make the necessary improvements according with this and some documentation.
 
 __Alejandro Fernández Camello__
 
