@@ -1,4 +1,4 @@
-# Creating the component and adding an improve the test of the model
+# Creating the component and improve the test of the model
 
 _26 July, 2021_
 
