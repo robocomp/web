@@ -4,42 +4,42 @@ _26 July, 2021_
 
 ## Introduction
 
-The goal of the previous week was to create the component, that has been done easily using the (robocomp)[https://github.com/robocomp/robocomp] command robocompdsl and having a good reference in emotionrecognition2 component previously create made things easier.
+The goal of the previous week was to create the component, that has been done easily using the [https://github.com/robocomp/robocomp](robocomp) command robocompdsl and having a good reference in emotionrecognition2 component previously create made things easier.
 
 ## Creating the component
 
 Firstly, I need to locate the interface that I have previously created in my robocomp installiation in the directory interfaces/IDSLs, also I have done some changes in the interfaces to modify and get the threshold (if the confidence of the prediction is lower than the threshold it will not be included in the predictions) and change the string class in Sprediction to label as class is a keyword in Python. So the final code of the interface will be like that:
 
-  module DetectionComponent
-  {
-      struct SPrediction
-      {
-          int x;
-          int y;
-          int w;
-          int h;
-          string label;
-      };
+    module DetectionComponent
+    {
+        struct SPrediction
+        {
+            int x;
+            int y;
+            int w;
+            int h;
+            string label;
+        };
 
-      sequence<SPrediction> Predictions;
+        sequence<SPrediction> Predictions;
 
-      sequence<byte> ImgType;
+        sequence<byte> ImgType;
 
-      struct TImage
-      {
-          int width;
-          int height;
-          int depth;
-          ImgType image;
-      };
+        struct TImage
+        {
+            int width;
+            int height;
+            int depth;
+            ImgType image;
+        };
 
-      interface DetectionComponent
-      {
-          Predictions processImage(TImage frame);
-          void setThreshold(float threshold);
-          float getThreshold();
-       };
-  };
+        interface DetectionComponent
+        {
+            Predictions processImage(TImage frame);
+            void setThreshold(float threshold);
+            float getThreshold();
+         };
+    };
 
 ## Results
 
