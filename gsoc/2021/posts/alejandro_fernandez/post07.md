@@ -82,11 +82,11 @@ So I write the following program using Ice to interact with the component:
         ic.destroy()
 
 The program basically executes all the operations defined by the interface that I have previously prepared, for the thereshold there is a getter and a setter so
-we can check if they work. Finally, tests the principal operation of the component that given an image as an input return a list with the boxes and labels predicted for that image. Reads an image locate in the test directory and returns its prediction, the image has as attributes the width, height, depth and a sequence of bytes that contains the proper image. The greater problem that appear was related to connecting to the proxy of the component, I finally I discover that the thread of the component finished with the program so in the end of the program I create a infinite loop that only finished when the user press Control+c in the terminal.
+we can check if they work. Finally, tests the principal operation of the component that given an image as an input returns a list with the boxes and labels predicted for that image. Reads an image locate in the test directory and returns its predictions, the image has as attributes the width, height, depth and a sequence of bytes that contains the proper image. The greater problem that appear was related to connecting to the proxy of the component, I finally discover that the thread of the component finished with the program so in the end of the program I create a infinite loop that only finished when the user press Control+c in the terminal.
 
 ### Improvements and conclusion
 
-After the testing, appeared some errors that needed to be solved, but no one of them was important. The component does not stand out for being fast, but as I can only test it an environment with a CPU I expect that the perfomance will dramatically increase using a GPU. After that, I only need to prepare the pull request for the official repository of LearnBlock from my fork. I added a directory call Detect with the files needed from the model to work properly, also I need to add the interfaces in IDSL and Ice format.
+After the testing, appeared some errors that needed to be solved, but no one of them was important. The component does not stand out for being fast, but as I can only test it an environment with a CPU I expect that the perfomance will dramatically increases using a GPU. After that, I only need to prepare the pull request for the official repository of LearnBlock from my fork. Basically this pull request will englobe adding a directory call Detect with the files needed from the model to work properly, also I needed to add the interfaces in IDSL and Ice format in the interfaces directory.
 
 __Alejandro Fernández Camello__
 
