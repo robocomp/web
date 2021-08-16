@@ -14,6 +14,7 @@ Mentors: Iván Barbecho, Francisco Andrés
 5. [Testing the Tensorflow Lite models](/web/gsoc/2021/posts/alejandro_fernandez/post05)
 6. [Creating the component and improve the test of the model](/web/gsoc/2021/posts/alejandro_fernandez/post06)
 7. [Final testing and improvements](/web/gsoc/2021/posts/alejandro_fernandez/post07)
+8. [Conclusion](/web/gsoc/2021/posts/alejandro_fernandez/post08)
 
 ## Garv Tambi
 
