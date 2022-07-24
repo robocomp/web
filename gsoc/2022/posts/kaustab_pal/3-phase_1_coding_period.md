@@ -62,3 +62,7 @@ path using either the carrot algorithm or the MPC.
 ### Video of the corrected MPC in the environment run_beta_bill
 
 https://youtu.be/AZC3tzMGH5o
+
+## Next steps
+
+The current implementation only works for static obstacles. The next step is to make it work for dynamic obstacles and making sure the target is in an unoccupied space even though the user gave it in an occupied cell.
