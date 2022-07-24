@@ -17,6 +17,7 @@ Project: Reinforcement Learning for pick and place operations
 Mentors: Mario Haut, Pilar Bachiller
 
 1. [Introduction](/web/gsoc/2022/posts/daniel_peix/1-introduction)
+2. [Envirnoment and algorithms](/web/gsoc/2022/posts/daniel_peix/2-env_and_algs)
 
 ## Sushant Sreeram Swamy 
 
