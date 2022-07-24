@@ -61,4 +61,4 @@ path using either the carrot algorithm or the MPC.
 
 ### Video of the corrected MPC in the environment run_beta_bill
 
-![](assets/GSoC_Phase_1_vid.mkv)
+https://youtu.be/AZC3tzMGH5o
