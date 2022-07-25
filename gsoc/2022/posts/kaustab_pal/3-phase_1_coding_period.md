@@ -15,7 +15,7 @@ run_beta_bill_walking and 3. run_beta_infirmary. In all of these environments
 the trajectory is failing to avoid collisions and is passing right through the
 obstacles.
 
-### Result of free-balls trajectory passing through the walls
+## Result of free-balls trajectory passing through the walls
 ![](assets/run_beta_infirmary.jpg)
 
 After fiddling with the weights of the cost function and making sure all the
@@ -26,7 +26,7 @@ Then I moved on to analyzing the **local_grid** component. Here after setting a
 target, a path is calculated using the A\* algorithm. After that we follow the
 path using either the carrot algorithm or the MPC. 
 
-### Testing the MPC algorithm with static obstacles
+## Testing the MPC algorithm with static obstacles
 
 1. One of the problem with the MPC was it didn't have any acceleration
    constraints. As a result the velocities would jump arbitrarily and was
@@ -63,6 +63,15 @@ path using either the carrot algorithm or the MPC.
 
 https://youtu.be/AZC3tzMGH5o
 
+## Testing the MPC algorithm with dynamic obstacles
+
+The problem with having negative velocity is that it will make the robot move in the reverse direction and when moving in the reverse direction, it won't be able to percieve the environment and end up colliding with the dynamic obstacles. So to address this issue I kept the minimum velocity as 0 but now enabled the robot to rotate on spot. That way if the target location is behind the robot, the robot will keep rotating without advancing forward untill the target is right in front of it and then use the MPC algorithm to calculate the trajectory to the target. This feature also enables the robot to get unstuck when it collides with a static obstacle.
+
+### Video of the MPC in the environment run_beta_bill_walking
+
+https://youtu.be/OsrGKSJUsoo
+
+
 ## Next steps
 
-The current implementation only works for static obstacles. The next step is to make it work for dynamic obstacles and making sure the target is in an unoccupied space even though the user gave it in an occupied cell.
+The current implementation only works for both static and dynamic obstacles. But if the target is placed inside an occupied cell the MPC will go and crash to the target. While it can still recover from that position but it is not an acceptable behavior. So the next step is to make sure the target is in an unoccupied cell even though the user gives it in an occupied cell.
