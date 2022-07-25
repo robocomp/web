@@ -65,7 +65,8 @@ https://youtu.be/AZC3tzMGH5o
 
 ## Testing the MPC algorithm with dynamic obstacles
 
-The problem with having negative velocity is that it will make the robot move in the reverse direction and when moving in the reverse direction, it won't be able to percieve the environment and end up colliding with the dynamic obstacles. So to address this issue I kept the minimum velocity as 0 but now enabled the robot to rotate on spot. That way if the target location is behind the robot, the robot will keep rotating without advancing forward untill the target is right in front of it and then use the MPC algorithm to calculate the trajectory to the target. This feature also enables the robot to get unstuck when it collides with a static obstacle.
+The problem with having negative velocity is that it will make the robot move in the reverse direction and when moving in the reverse direction, it won't be able to percieve the environment and end up colliding with the dynamic obstacles. So to address this issue I kept the minimum velocity as 0 but now enabled the robot to rotate on spot. That way if the target location is behind the robot, the robot will keep rotating without advancing forward untill the target is right in front of it and then use the MPC algorithm to calculate the trajectory to the target. This feature also enables the robot to get unstuck when it collides with a static obstacle. [Pull
+   request \#5](https://github.com/robocomp/optimizer/pull/5)
 
 ### Video of the MPC in the environment run_beta_bill_walking
 
