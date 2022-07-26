@@ -82,4 +82,4 @@ https://youtu.be/U4RgTK7FKog
 
 ## Next steps
 
-The current implementation only works for both static and dynamic obstacles. But if the target is placed inside an occupied cell the MPC will go and crash to the target. While it can still recover from that position but it is not an acceptable behavior. So the next step is to make sure the target is in an unoccupied cell even though the user gives it in an occupied cell.
+The current implementation works for both static and dynamic obstacles. The next step is to make sure the target is in an unoccupied cell even though the user gives it in an occupied cell.
