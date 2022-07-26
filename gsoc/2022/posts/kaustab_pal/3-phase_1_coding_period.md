@@ -72,6 +72,13 @@ The problem with having negative velocity is that it will make the robot move in
 
 https://youtu.be/OsrGKSJUsoo
 
+### Video of the MPC in the environment run_beta
+
+The following video shows how the MPC changes it's trajectory when an obstacle is moved towards it. It also shows that the robot doesn't crash into the obstacle but maintains a safe distance when the target is inside the obstacle. [Pull
+   request \#6](https://github.com/robocomp/optimizer/pull/6)
+
+https://youtu.be/U4RgTK7FKog
+
 
 ## Next steps
 
