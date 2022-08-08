@@ -51,3 +51,5 @@ Project: Reinforcement Learning for pick and place operations
 Mentors: Mario Haut, Pilar Bachiller
 
 1. [Introduction](/web/gsoc/2022/posts/vamsi_anumula/1-introduction)
+2. [Environment](/web/gsoc/2022/posts/vamsi_anumula/2-Environment)
+
