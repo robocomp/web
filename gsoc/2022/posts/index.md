@@ -18,6 +18,7 @@ Mentors: Mario Haut, Pilar Bachiller
 
 1. [Introduction](/web/gsoc/2022/posts/daniel_peix/1-introduction)
 2. [Envirnoment and algorithms](/web/gsoc/2022/posts/daniel_peix/2-env_and_algs)
+3. [DQN algorithm](/web/gsoc/2022/posts/daniel_peix/3-DQN)
 
 ## Sushant Sreeram Swamy 
 
