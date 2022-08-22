@@ -51,6 +51,10 @@ Mentors: Rishi Gondkar, Pedro Nuñez
 2. [Installations and early observations](/web/gsoc/2021/posts/aditya_kasibhatla/post2)
 3. [Plan and design](/web/gsoc/2021/posts/aditya_kasibhatla/post3)
 4. [Building the MVP](/web/gsoc/2021/posts/aditya_kasibhatla/post4)
+5. [Handling chat](/web/gsoc/2021/posts/aditya_kasibhatla/post5)
+6. [Offline Text to speech](/web/gsoc/2021/posts/aditya_kasibhatla/post6)
+7. [Offline Speech recognition](/web/gsoc/2021/posts/aditya_kasibhatla/post7)
+8. [RASA X](/web/gsoc/2021/posts/aditya_kasibhatla/post8)
 
 ## Aditya Kapoor
 
