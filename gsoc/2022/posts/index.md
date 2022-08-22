@@ -28,6 +28,7 @@ Mentors: Aditya Kapoor, Luis J. Manso
 
 1. [Introduction](/web/gsoc/2022/posts/sushant_sreeram/1-introduction)
 2. [Environment](/web/gsoc/2022/posts/sushant_sreeram/2-environment)
+3. [Agents](/web/gsoc/2022/posts/sushant_sreeram/3-agents)
 
 ## Kaustab Pal
 
