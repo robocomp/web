@@ -22,3 +22,7 @@ The aim of the project is also to implement various deep RL algorithms. A few de
 
 
 All these algorithms were written, and a few experiments were conducted. A glimpse of the dueling DQN on an environment with just the goal and no obstacles can be seen here: 
+
+
+
+https://user-images.githubusercontent.com/57453637/185982885-70aed38c-4855-4ed9-a32e-9cfdc5171a88.mp4
