@@ -26,12 +26,12 @@ also unoccupied.
 
 The following code snippet is taking care of this:
 
-```
+```C++
 if(neighboors_16(target).size()<16){
-        std::optional<QPointF> new_target = closest_free(target_);
-        target = pointToKey(new_target->x(), new_target->y());
-        std::cout<<"OCCUPIED"<<std::endl;
-    }
+      std::optional<QPointF> new_target = closest_free(target_);
+      target = pointToKey(new_target->x(), new_target->y());
+      std::cout<<"OCCUPIED"<<std::endl;
+ }
 ```
 
 [ [Target in obstacle] ]( https://youtu.be/mq_63IHb0MQ ) 
