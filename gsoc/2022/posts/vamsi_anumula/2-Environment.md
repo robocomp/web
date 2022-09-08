@@ -48,6 +48,5 @@ Similar to collision detection, if the force magintudes obtained from the grippe
 ## Goal Environment for goal-conditioning with HER
 
 Since, the task of pick and place is quite complex, we want to use to leverage the idea of goal-conditioning. With goal-conditioning, each episode is considering as a success by treating the achieved terminal state as a virtual goal state. Hindsight Experience Replay(HER) is used to achieved the goal conditioning for our agent. In order to use HER, our environment need to be modified into a gym.goalEnv structure, where the observation space consists of state, achieved goal and desired goal, and the reward for each time step will be computed based on this structure. This goal env will be created and tested. 
-...
 
 __Vamsi Anumula__
