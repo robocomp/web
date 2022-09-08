@@ -76,3 +76,38 @@ the narrow corridors with the euclidean distance obstacle avoidance constraints.
 We can also observe that the obstacles are now represented in a much less
 conservative way.
 [ [Pull Rrequest #379] ]( https://github.com/robocomp/robocomp/pull/379 ) 
+
+## Contribution 3: Reformulating the obstacle avoidance constraints as freeballs
+
+Suppose we have N obstacles and we are planning for T timesteps into the
+future. Using the euclidean distance obstacle avoidance constraints, for each
+timestep we will have a constraint for each of the N obstacles such that the
+distance between the robot and the obstacle is greater than the sum of the
+radius. Therefore for T timesteps, we will have N\*T constraints. This is a lot
+of constraints and will slow down the computation time. To overcome this , we
+use the freeballs algorithm as mentioned in the paper [ [An NMPC Approach using
+Convex Inner Approximations for Online Motion Planning with Guaranteed Collision
+Avoidance] ]( https://arxiv.org/abs/1909.08267 )  to avoid obstacles. In this
+approach, we first take an initial guess for T centerpoints and and optimize for
+them using a gradient based update rule such that the center points are furthest
+away from the closest obstacle at that timestep. Now for each free ball we draw
+a circle such that it's radius is the distance to the closest obstalce. If the
+distance is above a certain threshold, we take a maximum circle radius defined
+by the user. Once we have the center points and the radius, we add a constraint
+to the MPC formualtion such that the robot always stays inside the circle. With
+this approach, we only have T constraints and because of the decrease in the
+number of constraints the computation time also decreases a lot. 
+
+However this approach is very dependent on the value of the weight variables.
+That is why to improve this, I added the feature that we will do a line search
+for the weight variables and whichever weight will lead to a trajectory that is
+furthest away from all the obstacles will be selected. In my experimentation, I
+observed that we can only search for 3 weight variables after which the
+computation time increases too much to operate safely in the environment.
+
+In the video [ [Free Balls obstacle avoidance with automatic weights tuning] ](
+https://youtu.be/BvM0eflDXGI ), the robot uses the freeballs algorith, with the
+automatic weight search to navigate in the environment with narrow corridors.
+[ [Pull Request #9] ]( https://github.com/robocomp/optimizer/pull/9 ) 
+
+
