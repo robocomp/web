@@ -36,8 +36,8 @@ if(neighboors_16(target).size()<16){
 In the video [ [Target in obstacle] ]( https://youtu.be/mq_63IHb0MQ ), you can
 see how the robot performs when the target is given in an obstacle. Before
 fixing this issue, the robot used to crash but now the robot no longer crashes.
-It goes near the obstacle and stops. [ [Pull Request #379] ](
-https://github.com/robocomp/robocomp/pull/379 ) 
+It goes near the obstacle and stops. [ [Pull Request #377] ](
+https://github.com/robocomp/robocomp/pull/377 ) 
 
 ## Contribution 2: Passing through narrow corridors
 
