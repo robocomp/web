@@ -72,5 +72,5 @@ for (auto &&[k, v]: iter::filterfalse([](auto v) { return std::get<1>(v).free; }
 
 In the video [ [Passing through narrow corridors] ](
 https://youtu.be/1x6ngcrBRds ), you can see that the robot can now pass through
-the narrow corridors with the euclidean distance obstacle avoidance constraints.
+the narrow corridors with the euclidean distance obstacle avoidance constraints. We can also observe that the obstacles are now represented in a much less conservative way.
 [ [Pull Rrequest #379] ]( https://github.com/robocomp/robocomp/pull/379 ) 
