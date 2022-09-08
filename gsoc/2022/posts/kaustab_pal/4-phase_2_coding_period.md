@@ -110,4 +110,3 @@ https://youtu.be/BvM0eflDXGI ), the robot uses the freeballs algorith, with the
 automatic weight search to navigate in the environment with narrow corridors.
 [ [Pull Request #9] ]( https://github.com/robocomp/optimizer/pull/9 ) 
 
-
