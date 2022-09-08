@@ -18,11 +18,11 @@ The phase 2 started from July 25th. The plans for phase 2 are:
 During our testing in phase-1, we observed that if the target is given inside an
 occupied cell, the MPC tries to move towards it as one of the cost function of
 the MPC is to minimize the distance between the robot position and the goal
-position. This often lead to the robot crashing as it reeached near the
-obstacle. To fix this issue we added a check such that if the target of the MPC
-is inside an occupied cell inside a occupancy grid map, we move the target to
-the nearest free cell such that all the 16 neighbouring cells of the target are
-also unoccupied.
+position. This often leads to the robot crashing as it reeached near the
+obstacle. To fix this issue we first checked if the target and all it's
+neighbouring cells are unoccupied. If even one of the neighbouring 16 cells of
+the target is occupied, we consider the target to be inside a occupied cell and
+we move the target to the nearest free cell available. 
 
 The following code snippet is taking care of this:
 
@@ -33,7 +33,10 @@ if(neighboors_16(target).size()<16){
       std::cout<<"OCCUPIED"<<std::endl;
  }
 ```
-
-[ [Target in obstacle] ]( https://youtu.be/mq_63IHb0MQ ) 
+In the video [ [Target in obstacle] ]( https://youtu.be/mq_63IHb0MQ ), you can
+see how the robot performs when the target is given in an obstacle. Before
+fixing this issue, the robot used to crash but now the robot no
+longer crashes. It goes near the obstacle and stops.
+ 
 
 [ [Passing through narrow corridors] ]( https://youtu.be/1x6ngcrBRds ) 
