@@ -22,6 +22,8 @@ In this case, the size of the observation needs to change. As we are now using t
 This reward function is quite similar to the 3-dimensional one, just adding the griper's 'hand' info. The data which is used in this new reward function is: 2D distance, 3D distance, the gripper's 'fingers' data and the gripper's 'hand' data.
 
 ## Results
-TODO: YouTube links
+Start of the training: https://youtu.be/TjRCTKmOpRg
+Middle of the training: https://youtu.be/VOYvWodl6Ik
+End of the training: The computer clogged because CoppeliaSim used all the RAM
 
 __Daniel Peix del Río__
