@@ -57,4 +57,5 @@ Mentors: Mario Haut, Pilar Bachiller
 
 1. [Introduction](/web/gsoc/2022/posts/vamsi_anumula/1-introduction)
 2. [Environment](/web/gsoc/2022/posts/vamsi_anumula/2-Environment)
+3. [Training](/web/gsoc/2022/posts/vamsi_anumula/3-Training.md)
 
