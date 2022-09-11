@@ -27,6 +27,7 @@ The reward function is one of the most important aspects of a Reinforcement Lear
 In order to create a decent reward function, the 2d distance is used. With two thresholds, the environment can check is the gripper is above te cube, far away from it or any other possible situation. Depending on which situation is taking place, the reward wil be different.
 
 ## Results
-TODO: YouTube links
+Start of the training: https://youtu.be/fx7trTHZsjk
+End of the training: https://youtu.be/bgIHhoa8vrQ
 
 __Daniel Peix del Río__

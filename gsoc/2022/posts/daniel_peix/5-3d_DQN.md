@@ -22,6 +22,7 @@ In this case, the size of the observation needs to change. As we are using 3 dim
 This reward function is not as trivial as the one done for two dimensions. In this case, there is more information available from the environment, so the reward function might be a little more complicated. The data which is used in this new reward function is: 2D distance, 3D distance and the gripper's 'fingers' data. Using two values for the distance (2D and 3D) allows us to give more importance to the 2D distance over the 3D one, because is crucial to be first above the cube.
 
 ## Results
-TODO: YouTube links
+Start of the training: https://youtu.be/zBbi9Xjelkg
+End of the training: https://youtu.be/T5mk46UGFe8
 
 __Daniel Peix del Río__

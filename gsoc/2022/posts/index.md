@@ -21,6 +21,8 @@ Mentors: Mario Haut, Pilar Bachiller
 3. [DQN algorithm](/web/gsoc/2022/posts/daniel_peix/3-DQN)
 4. [2D DQN: First approach](/web/gsoc/2022/posts/daniel_peix/4-2d_DQN)
 5. [3D DQN: Collisions](/web/gsoc/2022/posts/daniel_peix/5-3d_DQN)
+6. [4D DQN](/web/gsoc/2022/posts/daniel_peix/6-4d_DQN)
+7. [Conclusions and improvements](/web/gsoc/2022/posts/daniel_peix/7-Conclusions_and_improvements)
 
 ## Sushant Sreeram Swamy 
 
