@@ -42,6 +42,11 @@ Project: Model Predictive Control for obstacle avoidance
 Mentors: Pablo Bustos, Pedro Núñez
 
 1. [Introduction](/web/gsoc/2022/posts/kaustab_pal/1-introduction)
+2. [Community bonding period](/web/gsoc/2022/posts/kaustab_pal/2-community_bonding_period)
+3. [Phase 1](/web/gsoc/2022/posts/kaustab_pal/3-phase_1_coding_period)
+4. [Phase 2](/web/gsoc/2022/posts/kaustab_pal/4-phase_2_coding_period)
+5. [Conclusion](/web/gsoc/2022/posts/kaustab_pal/5-conclusion)
+
 
 ## Swati Dantu
 
